@@ -1,0 +1,67 @@
+.about-us {
+  &-hero {
+    .hd_clr {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+      font-size: clamp(38px, 6vw, 68px);
+    }
+
+    .about_paragraph {
+      font-family: "Ubuntu", sans-serif;
+    }
+  }
+  .paragraph,
+  .heading-2,
+  .about_paragraph,
+  .heading-4 {
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .heading-2,
+  .about_paragraph,
+  .heading-4 {
+    color: #263238;
+  }
+
+  .heading-2 {
+    font-weight: 700;
+  }
+
+  .heading-4 {
+    font-weight: 700;
+  }
+
+  .font_f {
+    font-family: "Ubuntu";
+    font-weight: 700;
+  }
+
+  .red_btn.my-3 {
+    border-radius: 10px;
+
+    strong {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .guid_box {
+    span {
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 40px;
+    }
+  }
+
+  .about_team {
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: rgba(192, 189, 189, 0.5) 0px 7px 29px 0px;
+    margin: 2rem 0 2rem 2rem;
+  }
+}
